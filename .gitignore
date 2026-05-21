@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Build output
+client/dist/
+server/dist/
+*.tsbuildinfo
+
+# Environment variables (CRITICAL: contain DB password and JWT secret)
+.env
+.env.local
+.env.*.local
+server/.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS / local tool settings
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+.claude/
+
+# Prisma — keep schema and migrations, ignore generated client
+client/node_modules/
+server/node_modules/
+
+# Misc
+*.tmp

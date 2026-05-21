@@ -1,0 +1,8 @@
+.home {
+  max-width: 640px;
+}
+
+.lead {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+}

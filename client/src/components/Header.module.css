@@ -1,0 +1,97 @@
+.header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+}
+
+.inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.brand {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text);
+  text-decoration: none;
+}
+.brand:hover { text-decoration: none; }
+
+.nav {
+  display: flex;
+  gap: 1rem;
+  flex: 1;
+}
+
+.link,
+.linkActive {
+  color: var(--text-muted);
+  text-decoration: none;
+  padding: 0.25rem 0;
+  font-weight: 500;
+}
+.link:hover { color: var(--text); text-decoration: none; }
+.linkActive { color: var(--accent); }
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.userLink {
+  color: var(--text);
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.userLink:hover { text-decoration: underline; }
+
+.avatarMini {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--border);
+}
+
+.logoutBtn {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  padding: 0.4rem 0.8rem;
+  border-radius: var(--radius);
+}
+.logoutBtn:hover {
+  border-color: var(--text-muted);
+  color: var(--text);
+}
+
+.registerBtn {
+  background: var(--accent);
+  color: white;
+  padding: 0.4rem 0.9rem;
+  border-radius: var(--radius);
+  font-weight: 500;
+}
+.registerBtn:hover {
+  background: var(--accent-hover);
+  text-decoration: none;
+}
+
+.themeBtn {
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.3rem 0.55rem;
+  font-size: 1rem;
+  line-height: 1;
+}
+.themeBtn:hover {
+  border-color: var(--text-muted);
+}
